@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float speedDecay = 1f;
     [SerializeField] float speedAccel = 5f;
     [SerializeField] float rotationAccel = 5f;
-    [SerializeField] float rotationDecay = 1f;
+    [SerializeField] float rotationDecay = 2f;
     float moveSpeed = 0f;
     float rotationSpeed = 0f;
     private float isMoving = 0f;
